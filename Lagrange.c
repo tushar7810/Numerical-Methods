@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 void main(){
     float x[10],y[10],xp,yp = 0, p;
     int i,j,n;
-    // clrscr();
     printf("ENter number of data : ");
     scanf("%d",&n);
     printf("Enter data : ");
@@ -26,5 +24,4 @@ void main(){
     }
 
     printf("Interpolated value at %.3f is %.3f .",xp,yp);
-    getch();
 }
